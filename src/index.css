@@ -1,0 +1,22 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: #565756;
+}
+
+#app {
+  height: 100%;
+  background-color: red;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  font-size: 1.06rem;
+  border: none;
+  background-color: #f97056;
+  font-weight: regular;
+  color: white;
+  margin-right: 5px;
+  cursor: pointer;
+}
