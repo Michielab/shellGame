@@ -18,6 +18,7 @@ const Shell = props => {
 Shell.propTypes = {
   positionX: PropTypes.number,
   positionY: PropTypes.number,
+  color: PropTypes.string,
   reveal: PropTypes.func,
   name: PropTypes.string
 };
