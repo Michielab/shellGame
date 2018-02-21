@@ -58,9 +58,7 @@ class App extends Component {
   /*Method to move shells */
   swapShells = () => {
     let count = 0;
-    let shellOne = this.state.shellOne;
-    let shellTwo = this.state.shellTwo;
-    let shellThree = this.state.shellThree;
+    let { shellOne, shellTwo, shellThree } = this.state;
     let swap = setInterval(() => {
       count++;
       count === 10
